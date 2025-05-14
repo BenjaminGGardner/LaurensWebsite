@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#about" class="nav__link active-link">About</a></li>
+                        <li class="nav__item"><a href="#Game" class="nav__link">Game Soundscape</a></li>
+                        <li class="nav__item"><a href="#Cave" class="nav__link">Cave</a></li>
+                        <li class="nav__item"><a href="#Combat" class="nav__link">Combat</a></li>
+                        <li class="nav__item"><a href="#Narrative" class="nav__link">Narrative</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/Lauren.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm just a girl</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="Game section" id="Game">
+            <h2 class="section-title">Game Soundscape</h2>
+
+                <div class="work__container game-grid">
+                    <a href="" class="work__img">
+                        <img src="assets/img/game1.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/game2.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/game3.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="assets/img/game4.png" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="Cave section" id="Cave">
+            <h2 class="section-title">Cave</h2>
+
+                <div class="about__container bd-grid">
+                        <img src="assets/img/Cave.png" alt="">
+                <audio controls>
+                    <source src="assets/music/cave.wav" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                </div>
+            </section>
+
+            
+            <!--===== SKILLS =====-->
+            <section class="Combat section" id="Combat">
+            <h2 class="section-title">Combat</h2>
+
+                <div class="about__container bd-grid">
+                        <img src="assets/img/Combat.png" alt="">
+                <audio controls>
+                    <source src="assets/music/combat.wav" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="Narrative section" id="Narrative">
+                <h2 class="section-title">Narrative</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="board__img">
+                        <img src="assets/img/Lauren.png" alt="">
+                    </a>
+                    <div>
+                        <h2 class="about__subtitle">I'm just a girl - remove img or refactor</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>    
+                    <audio controls>
+                    <source src="assets/music/narrative.wav" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Send" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Lauren - 2025</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
