@@ -449,9 +449,9 @@ img {
   }
 .work__container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  grid-template-rows: repeat(2, 1fr);    /* 2 rows */
-  gap: 2rem;                             /* space between items */
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr);    
+  gap: 2rem;                             
   padding-top: 2rem;
 }
   .contact__form {
